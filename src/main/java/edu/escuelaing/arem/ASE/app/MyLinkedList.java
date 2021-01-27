@@ -15,7 +15,7 @@ import java.util.Iterator;
 /**
  *
  * @author David Coronado
- * @param <E>
+ * @param <E> Este valor va a ser el tipo de colleccion a crear generalmente de valor Numerico
  */
 public class MyLinkedList<E> implements Collection<E>{
     

@@ -8,7 +8,7 @@ package edu.escuelaing.arem.ASE.app;
 /**
  *
  * @author David Coronado
- * @param <E>
+ * @param <E> Este parametro sera el tipo de valor que guardara el Nodo
  */
 public class Node <E>{
     

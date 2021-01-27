@@ -10,7 +10,8 @@ import java.util.Iterator;
 /**
  *
  * @author David Coronado
- * @param <E>
+ * @param <E> De esta manera sabra y este objeta sera creado del mismo tipo de nodo de la linked
+ * list
  */
 public class IteradorLinkedList<E> implements Iterator<E> {
     
