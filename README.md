@@ -12,7 +12,7 @@ list propiamente implementada donde guardara todos estos valores.
 La linked list o bien lista enlasada tiene distintas funciones ademas de solo almacenar 
 datos y retornarlos, provee distintas funcionalidades propias de esta.
 
-  _![](img/linkedlist.png)
+  ![](img/linkedlist.png)
 
 Para saber mas acerca de estas clases, podremos ver documentacion mas detallada  en el  siguiente directorio llamado documentation.
 
