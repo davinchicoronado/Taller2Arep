@@ -1,7 +1,7 @@
 # Escuela Colombiana de Ingeniería Julio Garavito 
 
 ## Taller 1 Arquitecturas empresariales - AREP
-## INTRODUCTION TO COMPLEX SYSTEMS, JAVA, MVN, AND GIT
+### INTRODUCTION TO COMPLEX SYSTEMS, JAVA, MVN, AND GIT
 
 
 ### Descripción
