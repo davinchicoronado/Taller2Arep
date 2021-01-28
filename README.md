@@ -32,9 +32,9 @@ tener certesa del se deberan ejecutar los siguientes comandos.
 imagen
 
 
-###Authors
+### Authors
 
-  David Leonardo Coronado Gomez
+David Leonardo Coronado Gomez
   
   
 
