@@ -16,7 +16,7 @@ public class App
 
     /**
     * Calcula la madia dada una linkedlist con los valores de la muestra
-    * @param directory String direccion del archivo a leer
+    * @param conjunto de números separados por coma
     * @return el valor de la media de tipo double 
     */
     public double calculateMean(String directory){
@@ -32,13 +32,12 @@ public class App
            
         }
         mean=Precision.round(mean/sample.size(),2);
-        
         return mean;
     
     }
       /**
     * Calcula la desviacion estandar dada una linkedlist con los valores de la muestra
-    * @param directory String direccion del archivo a leer
+    * @param conjunto de números separados por coma
     * @return el valor de la desviacion de la muestra de tipo double 
     */
     public double calculateStandardDeviation(String directory){
@@ -48,11 +47,12 @@ public class App
         Reader lector = new Reader();
 
         Collection<Double> sample = lector.readText(directory);
-        
+       
         double mean=0;
         Iterator<Double> iterador = sample.iterator();
         while(iterador.hasNext()){
-            mean+=iterador.next();   
+            mean+=iterador.next();
+            
         }
         mean=mean/sample.size();
         
@@ -63,7 +63,6 @@ public class App
         }
         varianza = (varianza)/(sample.size()-1);
         desviation = Precision.round(Math.sqrt(varianza),2);
-        
         return desviation;
     }
 }

@@ -16,22 +16,11 @@ import java.io.FileReader;
 public class Reader {
     
     public MyLinkedList readText(String route){
-        BufferedReader br;
-        FileReader fr;
+
         MyLinkedList<Double> sample = new MyLinkedList<>();
-        try{
-            fr = new FileReader(route);
-            br = new BufferedReader(fr);
-            String line;
-            while ((line = br.readLine()) != null) {
-                sample.add(Double.parseDouble(line));
-            }
-            br.close();
-            fr.close();
-           
-        }
-        catch(Exception ex){
-            System.out.println(ex);
+        String[] res = route.split("[,]",0);
+        for(String myStr:res){
+            sample.add(Double.parseDouble(myStr));
         }
         return sample;
     }
