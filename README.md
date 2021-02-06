@@ -11,8 +11,8 @@ web, la cual podemos acceder con el siguiente link:
 https://sheltered-forest-25930.herokuapp.com/calculate
 \
 
-Para esto utiliza la clase app que ofrece este servicio de calculos 
-la cual recibe un string donde ya bienen todos estos datos , tambien utiliza una clase linked
+Para esto utiliza la clase app que ofrece este servicio de calculos, 
+la cual recibe un string donde ya bienen todos estos datos, tambien utiliza una clase linked
 list propiamente implementada donde guardara todos estos valores.
 
 La linked list o bien lista enlasada tiene distintas funciones ademas de solo almacenar 
