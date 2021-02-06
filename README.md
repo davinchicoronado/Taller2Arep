@@ -1,12 +1,18 @@
 # Escuela Colombiana de Ingeniería Julio Garavito 
 
-## Taller 1 Arquitecturas empresariales - AREP
-### INTRODUCTION TO COMPLEX SYSTEMS, JAVA, MVN, AND GIT
+## Taller 2 Arquitecturas empresariales - AREP
+### INTRODUCTION TO COMPUTER SYSTEM DESIGN
 
 
 ### Descripción
-La clase app  permite calcular la desviación estandar y el promedio de un
-conjunto de datos almacenados en un archivo plano, tambien utiliza una clase linked
+El proyecto Taller 2 Arep permite calcular la  desviación estandar mediante una pagina
+web, la cual podemos acceder con el siguiente link:
+\
+https://sheltered-forest-25930.herokuapp.com/calculate
+\
+
+Para esto utiliza la clase app que ofrece este servicio de calculos 
+la cual recibe un string donde ya bienen todos estos datos , tambien utiliza una clase linked
 list propiamente implementada donde guardara todos estos valores.
 
 La linked list o bien lista enlasada tiene distintas funciones ademas de solo almacenar 
@@ -18,10 +24,19 @@ Para saber mas acerca de estas clases, podremos ver documentacion mas detallada 
 tambien encontraremos un pdf describiendo el diseño del mismo.
 
   ![](img/documentation.png)
+  
+Para poder realizar estos calculos la pagina web nos ofrece un formulario donde el usuario podra ingresar los datos separados por coma (,).
+
+![](img/paginawebcalculate.png)
+
+Luego le damos al boton "submit" y nos mostrara los resultados calculados.
+
+![](img/paginawebresult.png)
+  
 
 ### Descarga y ejecución
 
-Para poder modificar, ejecutar o usar el proyecto debemos tener las herramientas Maven y Git previamente instaladas.
+Para poder modificar, ejecutar o usar el proyecto debemos tener las herramientas Maven,Heroku y Git previamente instaladas.
 Para descargar podemos hacerlo directamente en la pagina web de la pagina o utilizando el siguente comando
 
   ![](img/gitclone.png)
@@ -31,6 +46,18 @@ tener certesa del se deberan ejecutar los siguientes comandos mvn test.
 
 
   ![](img/test.png)
+  
+ Y finalmente para ejecutar con los siguientes comandos:
+ 
+ Para Windows 
+ 
+ ![](img/windows.png)
+ 
+ Para sistemas Unix
+ 
+ ![](img/UNIX.png)
+ 
+ Luego de esto abrimos algún navegador con el siguiente link http://localhost:4567/calculate.
 
 
 ### Authors
